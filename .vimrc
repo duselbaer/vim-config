@@ -9,3 +9,10 @@ set list
 set colorcolumn=120
 
 set background=dark
+
+syntax enable
+set background=dark
+
+if has("gui_macvim")
+  colorscheme solarized
+endif

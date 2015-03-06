@@ -1,8 +1,11 @@
 set nu
 set ai
-set tabstop=2
+set tabstop=4
 set expandtab
-set shiftwidth=2
+set shiftwidth=4
 
-set listchars=tab:>-,trail:~,extends:>,precedes:<
+set listchars=tab:>-,trail:~,extends:>,precedes:<,nbsp:¬
 set list
+set colorcolumn=120
+
+set background=dark

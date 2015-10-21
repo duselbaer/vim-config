@@ -12,6 +12,7 @@ set background=dark
 
 syntax enable
 set background=dark
+filetype plugin on
 
 if has("gui_macvim")
   colorscheme solarized
